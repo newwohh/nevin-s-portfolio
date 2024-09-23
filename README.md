@@ -21,7 +21,7 @@ Welcome to my portfolio! This is a personal website showcasing my skills, projec
 ## Technologies Used
 
 - **Frontend**: React, Gatsby, Tailwind CSS
-- **Programming Languages**: JavaScript, TypeScript, Python, C++
+- **Programming Languages**: JavaScript, TypeScript
 - **Other Tools**: Git, GitHub
 
 ## Installation
