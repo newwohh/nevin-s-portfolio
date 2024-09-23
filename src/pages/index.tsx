@@ -30,14 +30,14 @@ const IndexPage = () => {
 
       <div className={darkMode ? "dark" : ""}>
         <div className="min-h-screen bg-white dark:bg-black text-black dark:text-white flex flex-col justify-between font-sans">
-          <div className="absolute top-4 right-4">
+          <header className="flex justify-end items-center p-4">
             <button
-              className="bg-white text-black py-2 px-6 rounded border border-black hover:bg-black hover:text-white dark:bg-black dark:text-white dark:border-white dark:hover:bg-white dark:hover:text-black transition"
+              className="bg-white text-black py-2 px-4 rounded border border-black hover:bg-black hover:text-white dark:bg-black dark:text-white dark:border-white dark:hover:bg-white dark:hover:text-black transition"
               onClick={toggleDarkMode}
             >
               {darkMode ? "Light Mode" : "Dark Mode"}
             </button>
-          </div>
+          </header>
 
           <div className="flex-grow flex flex-col justify-center items-center">
             <header className="text-center mb-12">
@@ -92,9 +92,9 @@ const IndexPage = () => {
               </h2>
               <div className="flex flex-wrap justify-start">
                 <div className="w-full md:w-1/2 mb-4 pr-4">
-                  <strong>Helixo</strong> – Software Engineer <br />I work on
-                  developing Shopify applications that help merchants enhance
-                  their online stores. My responsibilities include:
+                  <strong>Helixo</strong> – Software Engineer <br />
+                  I work on developing Shopify applications that help merchants
+                  enhance their online stores. My responsibilities include:
                   <div className="text-left mt-2">
                     <p>
                       • Collaborating with designers and product managers to
