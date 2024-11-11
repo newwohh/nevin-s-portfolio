@@ -34,14 +34,13 @@ const IndexPage = () => {
                 y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
             })(window, document, "clarity", "script", "opscxmemc8");
           `}
-        </script>
-        <!-- Google Tag Manager -->
+        </script type="text/javascript">
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-KJJ76XHN');</script>
-<!-- End Google Tag Manager -->
+})(window,document,'script','dataLayer','GTM-KJJ76XHN');
+</script>
       </Helmet>
 
       <div className={darkMode ? "dark" : ""}>
@@ -190,10 +189,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
       </div>
 
-          <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KJJ76XHN"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
     </>
   );
 };
